@@ -8,6 +8,7 @@ body{
 }
 .navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-brand{
     color: #fbfbfb !important;
+    
 }
 .navbar-dark .navbar-brand{
     font-size: 1.4rem;
@@ -16,9 +17,20 @@ body{
 .navbar-dark .navbar-nav .nav-link{
     font-weight: 400;
     margin-left: 20px;
+    transition: .3s;
+}
+.navbar-brand {
+    -webkit-transition: text-shadow 0.2s linear;
+    -moz-transition: text-shadow 0.2s linear;
+    -ms-transition: text-shadow 0.2s linear;
+    -o-transition: text-shadow 0.2s linear;
+    transition: text-shadow 0.5s linear;
+}
+.navbar-brand:hover {
+    text-shadow: 0 0 10px white; /* replace with whatever color you want */
 }
 .navbar-dark .navbar-nav .nav-link:hover{
-    color: white !important;
+    color: #C33B00 !important;
 }
 .bg-dark{
     background: #1B1B2F !important;
@@ -39,7 +51,7 @@ section{
     letter-spacing: .15rem;
     margin-bottom:25px;
 }
-#landing a{
+.btn1{
 -webkit-border-radius: 0px;
 -moz-border-radius: 0px;
 margin-top: 2%;
@@ -55,8 +67,10 @@ cursor: pointer;
 text-align: center;
 transition: 0.3s;
 }
-#landing a:hover{
-    font-size: 23.5px;
+.btn1:hover{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
 }
 h1{
     font-weight: 700;
