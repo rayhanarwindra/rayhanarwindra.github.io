@@ -53,6 +53,10 @@ text-decoration: none;
 display: inline-block;
 cursor: pointer;
 text-align: center;
+transition: 0.3s;
+}
+#landing a:hover{
+    font-size: 23.5px;
 }
 h1{
     font-weight: 700;
