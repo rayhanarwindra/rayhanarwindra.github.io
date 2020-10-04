@@ -4,111 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rayhan Arwindra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/934e9415a2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">RAYHAN ARWINDRA</a>
+            <a class="navbar-brand" href="#">Rayhan Arwindra</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
+                  <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#experience">Experience</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#skill">Skills</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#" data-toggle="modal" data-target="#myModal">Contact</a>
                 </li>
               </ul>
             </div>
         </div>   
       </nav>
+      <div class="container">
+        <section id="landing">
+          <h1>Hi! I'm Rayhan Arwindra</h1>
+          <h2>CS student, and aspiring front-end developer</h2>
+          <a href="#projects" class="my-btn">View My Projects</a>
+        </section>
+        <section id="projects">
+          <h1 class="text-center">My Projects</h1>
+        </section>
+      </div>
+      <!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h2 class="modal-title">Contact Information</h2>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="row text-center">
+          <div class="col-md-4"><a href="mailto:rayhan.arwindra@gmail.com" target="_blank"><i class="far fa-envelope"></i></a></div>
+          <div class="col-md-4"><a href="https://www.linkedin.com/in/w-m-rayhan-arwindra-b99305171" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
+          <div class="col-md-4"><a href="https://github.com/rayhanarwindra" target="_blank"><i class="fab fa-github"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
       
-      <section id="landing">
-        <div class="container">
-          <h1>Hi! I'm <span>Rayhan Arwindra</span></h1>
-          <p>COMPUTER SCIENCE STUDENT & ASPIRING SOFTWARE DEVELOPER</p>
-          <a href="#about" class="btn btn-outline-light p-2">Get to know me!</a>
-        </div>
-      </section>
-
-      <section id="about">
-        <div class="container">
-          <h1>About</h1>
-          <p>I'm a computer science student at the University of Indonesia. 
-            I'm interested in software development or software engineering, 
-            be it for back-end or front-end development. In my years as a student, I've
-            learnt a plethora of programming languages, and I am always excited to learn even more.
-            I'm a hard working, self-driven individual, and love to face challenging problems.</p>
-        </div>
-      </section>
-
-      <section id="experience">
-        <div class="container">
-          <h1>MY EXPERIENCE</h1>
-          <div class="row content">
-            <div class="col-md-12">
-              <ul class="timeline">
-                <li>
-                  <h5>Jan 2020 - Present</h5>
-                  <h4>TEACHING ASSISTANT - UNIVERSITAS INDONESIA</h4>
-                  <p>Teaching assistant for Introduction to Computer Organization Course.</p>
-                  <p>Created Weekly lab tutorials and quizes, and also made homework questions.</p>
-                </li>
-                <li>
-                  <h5>Sep 2019 - Dec 2019</h5>
-                  <h4>TEACHING ASSISTANT - UNIVERSITAS INDONESIA</h4>
-                  <p>Teaching assistant and coordinator for Discrete Mathematics I Course.</p>
-                  <p>Created and held weekly tutorial questions, graded homeworks and exercises.</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="skill">
-        <div class="container">
-          <h1>MY SKILLS</h1>
-          <div class="row content text-center">
-            <div class="col-md-2">
-              <i class="fab fa-html5"></i>
-              <p>HTML</p>
-            </div>
-            <div class="col-md-2">
-              <i class="fab fa-css3-alt"></i>
-              <p>CSS</p>
-            </div>
-            <div class="col-md-2">
-              <i class="fab fa-js-square"></i>
-              <p>Javascript</p>
-            </div>
-            <div class="col-md-2">
-              <i class="fab fa-python"></i>
-              <p>Python</p>
-            </div>
-            <div class="col-md-2">
-              <i class="fab fa-java"></i>
-              <p>Java</p>
-            </div>
-            <div class="col-md-2">
-              <i class="fas fa-database"></i>
-              <p>SQL</p>
-            </div>
-          </div>
-        </div>
-      </section>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
