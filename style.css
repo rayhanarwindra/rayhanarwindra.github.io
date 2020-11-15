@@ -93,7 +93,7 @@ i{
     margin-top: 2%;
     border-radius: 0px;
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 100;
     padding: 10px;
     background-color: #C33B00;
@@ -110,5 +110,18 @@ i{
 .btnWeb:hover{
     text-shadow: 0 0 10px white; 
     text-decoration: none;
+    color: white;
+}
+.modal-content{
+    background-color: #1A2C59;
+    color: white;
+}
+.modal-body a{
+    color: white !important;
+}
+.close{
+    color: white;
+}
+.close:hover{
     color: white;
 }
