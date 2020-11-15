@@ -83,3 +83,32 @@ i{
 .modal-body a{
     color: black;
 }
+.card{
+    background: #1A2C59;
+    color: white;
+}
+.btnWeb{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    margin-top: 2%;
+    border-radius: 0px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #C33B00;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    -webkit-transition: text-shadow 0.2s linear;
+    -moz-transition: text-shadow 0.2s linear;
+    -ms-transition: text-shadow 0.2s linear;
+    -o-transition: text-shadow 0.2s linear;
+    transition: text-shadow 0.5s linear;
+    }
+.btnWeb:hover{
+    text-shadow: 0 0 10px white; 
+    text-decoration: none;
+    color: white;
+}
