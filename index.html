@@ -1,95 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rayhan Arwindra</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/934e9415a2.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rayhan Arwindra</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/934e9415a2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Rayhan Arwindra</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <div class="container">
-            <a class="navbar-brand" href="#">Rayhan Arwindra</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#" data-toggle="modal" data-target="#myModal">Contact</a>
-                </li>
-              </ul>
-            </div>
-        </div>   
-      </nav>
-      <div class="container">
-        <section id="landing">
-          <h1>Hi! I'm Rayhan Arwindra</h1>
-          <h2>CS student, and aspiring front-end developer</h2>
-          <a href="#projects" class="btn1">View My Projects</a>
-        </section>
-        <section id="projects">
-          <h1 class="text-center">My Projects</h1>
-          <div class="row mt-5">
+            <section id="landing">
+                <h1>Hi! I'm Rayhan Arwindra</h1>
+                <h2>CS student, and aspiring front-end developer</h2>
+                <a href="#projects" class="btn1">View My Projects</a>
+                <a href="./W M Rayhan Arwindra CV.pdf" target="_blank" class="btn2 ml-4">View My Resume</a>
+            </section>
 
-            <div class="col-md-4">
-              <div class="card mx-auto" style="width: 18rem;">
-                <img class="card-img-top p-3" style="height: 10.5rem" src="./pilar.PNG" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Pilar Admin Website</h5>
-                  <p class="card-text">Tools: React.js, Material UI, Context API State Management</p>
-                  <a target="_blank" href="https://www.industripilar.com/" class="btnWeb">View Website</a>
+            <section id="projects">
+                <h1>Things I've worked on</h1>
+                <hr />
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="./pilar.PNG" />
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Pilar Admin Website</h2>
+                        <p class="mt-4 tools">Tools: React.js, Material UI, Context API State Management</p>
+                        <a target="_blank" href="https://www.industripilar.com/" class="btnWeb mt-4">View Website</a>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mx-auto" style="width: 18rem;">
-                <img class="card-img-top p-3" src="./myweather.PNG" style="height: 10.5rem" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Weather Website</h5>
-                  <p class="card-text">Tools: React.js, React Bootstrap, OpenWeatherMap API</p>
-                  <a target="_blank" href="https://myweatherwebsite.netlify.app/" class="btnWeb">View Website</a>
-                  <a target="_blank" href="https://github.com/rayhanarwindra/myweather" class="btnCode ml-1">View Code</a>
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="./myweather.PNG" />
+                    </div>
+                    <div class="col-md-6">
+                        <h2>MyWeather Website</h2>
+                        <p class="mt-4 tools">Tools: React.js, React Bootstrap, OpenWeatherMap API</p>
+                        <a target="_blank" href="https://myweatherwebsite.netlify.app/" class="btnWeb mt-4">View Website</a>
+                        <a target="_blank" href="https://github.com/rayhanarwindra/myweather" class="btnCode ml-3">View Code</a>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-      <!-- The Modal -->
-<div class="modal" id="myModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
+            </section>
 
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h2 class="modal-title">Contact Information</h2>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-      </div>
-      <!-- Modal body -->
-      <div class="modal-body">
-        <div class="row text-center">
-          <div class="col-md-4"><a href="mailto:rayhan.arwindra@gmail.com" target="_blank"><i class="far fa-envelope"></i></a></div>
-          <div class="col-md-4"><a href="https://www.linkedin.com/in/w-m-rayhan-arwindra-b99305171" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
-          <div class="col-md-4"><a href="https://github.com/rayhanarwindra" target="_blankgi"><i class="fab fa-github"></i></a></div>
-        </div>
-        <div class="text-center">
-          <a href="./W M Rayhan Arwindra CV.pdf"  target="_blank" class="btnWeb mt-4 ">View CV</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+            <section id="contact">
+                <h1>Get in touch with me</h1>
+                <hr />
+                <div class="row text-center contact-buttons">
+                    <div class="col-md-4">
+                        <a href="mailto:rayhan.arwindra@gmail.com" target="_blank">
+                            <div class="contact-btn">
+                                <i class="far fa-envelope"></i>
+                                <p>Email</p>
+                            </div>
+                        </a>
+                    </div>
 
-      
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
+                    <div class="col-md-4">
+                        <a href="https://www.linkedin.com/in/w-m-rayhan-arwindra-b99305171" target="_blank">
+                            <div class="contact-btn">
+                                <i class="fab fa-linkedin-in"></i>
+                                <p>Linkedin</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="https://github.com/rayhanarwindra" target="_blank">
+                            <div class="contact-btn">
+                                <i class="fab fa-github"></i>
+                                <p>Github</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center mt-5 mb-3">@ 2020 Rayhan Arwindra</div>
+            </section>
+
+           
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
 </html>

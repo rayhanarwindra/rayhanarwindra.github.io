@@ -2,9 +2,10 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #162447;
+    background: #212121;
     font-family: 'Roboto', sans-serif !important;
     padding-top: 70px;
+    color: white;
 }
 .navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-brand{
     color: #fbfbfb !important;
@@ -26,28 +27,22 @@ body{
     -o-transition: text-shadow 0.2s linear;
     transition: text-shadow 0.5s linear;
 }
-.navbar-brand:hover {
-    text-shadow: 0 0 10px white; /* replace with whatever color you want */
-}
-.navbar-dark .navbar-nav .nav-link:hover{
-    color: #C33B00 !important;
-}
+
 .bg-dark{
-    background: #1B1B2F !important;
+    background: #2C2C2C !important;
 }
-section{
-    min-height: 91vh;
-}
+
 #landing{
-    padding-top: 15%;
-    color: white;
+    min-height: 91vh;
+    padding-top: 13%;
+ 
 }
 #landing h1{
-    font-size: 4rem;
+    font-size: 4.5rem;
     margin-bottom: 20px;
 }
-#landing p{
-    font-size: 1.2rem;
+#landing h2{
+    font-size: 2.6rem;
     letter-spacing: .15rem;
     margin-bottom:25px;
 }
@@ -60,7 +55,7 @@ color: #FFFFFF;
 font-size: 23px;
 font-weight: 100;
 padding: 10px;
-background-color: #C33B00;
+background-color: #0D7377;
 text-decoration: none;
 display: inline-block;
 cursor: pointer;
@@ -68,24 +63,38 @@ text-align: center;
 transition: 0.3s;
 }
 .btn1:hover{
-    font-size: 24px;
     text-decoration: none;
     color: white;
 }
+.btn2{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    margin-top: 2%;
+    border-radius: 0px;
+    color: #FFFFFF;
+    font-size: 23px;
+    font-weight: 100;
+    padding: 10px;
+    background-color:#23AD97;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s;
+}
+.btn2:hover{
+    text-decoration: none;
+    color: white;
+}
+
 h1{
     font-weight: 700;
     color: #fff;
 }
 i{
+    color: white;
     font-size: 4rem;
     margin: 10px 0 ;
-}
-.modal-body a{
-    color: black;
-}
-.card{
-    background: #1A2C59;
-    color: white;
 }
 .btnWeb{
     -webkit-border-radius: 0px;
@@ -96,7 +105,7 @@ i{
     font-size: 18px;
     font-weight: 100;
     padding: 10px;
-    background-color: #C33B00;
+    background-color: #0D7377;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
@@ -108,23 +117,10 @@ i{
     transition: text-shadow 0.5s linear;
     }
 .btnWeb:hover{
-    text-shadow: 0 0 10px white; 
     text-decoration: none;
     color: white;
 }
-.modal-content{
-    background-color: #1A2C59;
-    color: white;
-}
-.modal-body a{
-    color: white !important;
-}
-.close{
-    color: white;
-}
-.close:hover{
-    color: white;
-}
+
 .btnCode{
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
@@ -134,7 +130,7 @@ i{
     font-size: 18px;
     font-weight: 100;
     padding: 10px;
-    background-color: #EC2445;
+    background-color: #23AD97;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
@@ -146,7 +142,31 @@ i{
     transition: text-shadow 0.5s linear;
     }
 .btnCode:hover{
-    text-shadow: 0 0 10px white; 
     text-decoration: none;
     color: white;
+}
+hr{
+    border: 2px solid #0D7377;
+}
+#projects{
+    padding-top: 1.2rem;
+}
+.tools{
+    font-size: 1.3rem;
+}
+#contact{
+    margin-top: 5rem;
+}
+.contact-btn{
+    background: #0D7377;
+    color: white;
+}
+a{
+    color: white !important;
+}
+a:hover{
+    text-decoration: none;
+}
+.contact-buttons{
+    margin-top: 5rem;
 }
